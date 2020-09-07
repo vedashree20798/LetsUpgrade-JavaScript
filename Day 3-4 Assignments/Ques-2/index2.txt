@@ -1,0 +1,4 @@
+function copy_text(){
+    const ele = document.getElementsByClassName("copy");
+    ele[1].value = ele[0].value;
+}

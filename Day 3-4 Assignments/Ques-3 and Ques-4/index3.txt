@@ -1,0 +1,48 @@
+let info = [
+    {
+        name: "Sarika",
+        age: 42,
+        country: "India",
+        hobbies: ["Singing","Cooking"]
+    },
+    {
+        name: "Vedashree",
+        age: 22,
+        country: "USA",
+        hobbies: ["Reading","Cooking","Painting"]
+    },
+    {
+        name: "Ketaki",
+        age: 18,
+        country: "India",
+        hobbies: ["Dancing","Reading"]
+    },
+    {
+        name: "Radha",
+        age: 14,
+        country: "USA",
+        hobbies: ["Singing","Dancing","Drawing"]
+    },
+    
+];
+
+console.log("Display all objects: ")
+info.forEach(function(ele){
+    console.log(ele);
+});
+
+console.log("The objects with age < 30 are: ")
+
+for(let i=0;i<info.length;i++){
+    if(info[i].age < 30){
+        console.log(info[i])
+    }
+}
+
+console.log("The objects with country India are: ")
+
+for(let i=0;i<info.length;i++){
+    if(info[i].country=="India"){
+        console.log(info[i])
+    }
+}

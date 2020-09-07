@@ -1,0 +1,20 @@
+// Image Changing Assignment
+
+function change_image(){
+    const ele = document.getElementById("image");
+    const newUrl = "https://media1.popsugar-assets.com/files/thumbor/fAzDfg5bOasPxyoo9A4CPbgvxWw/660x0:1312x967/fit-in/728xorig/filters:format_auto-!!-:strip_icc-!!-/2020/02/28/913/n/1922283/d41abaac5e597e33a9d771.12680042_/i/Harry-Potter-Quotes-Quiz.jpg";
+    ele.src = newUrl;
+}
+
+function change_image2(){
+    const ele = document.getElementById("image");
+    const newUrl = "https://www.biography.com/.image/t_share/MTQ3OTg2NjQ0NDg0NDk4OTEx/hp_cropped_gettyimages-113941726.jpg"
+    ele.src = newUrl;
+}
+
+function first_image(){
+    const ele = document.getElementById("image");
+    const newUrl="https://www.irishtimes.com/polopoly_fs/1.3170107.1501253408!/image/image.jpg_gen/derivatives/ratio_1x1_w1200/image.jpg"
+
+    ele.src = newUrl;
+}
